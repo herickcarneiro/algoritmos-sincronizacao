@@ -12,11 +12,7 @@ public class Producer extends Thread {
     public void run() {
         int i = 0;
         while (true) {
-            try {
-                buffer.deposit(value + String.valueOf(i++));
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            buffer.deposit(value + String.valueOf(i++));
         }
     }
 }
