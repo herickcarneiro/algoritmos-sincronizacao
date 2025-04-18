@@ -1,2 +1,2 @@
-## Aloritmos de Sincronização
+## Algoritmos de Sincronização
 
