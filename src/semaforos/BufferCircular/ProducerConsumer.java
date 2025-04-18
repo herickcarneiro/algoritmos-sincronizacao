@@ -14,6 +14,5 @@ public class ProducerConsumer {
         producer.start();
         consumer.start();
         scanner.close();
-
     }
 }
